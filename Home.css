@@ -1,0 +1,148 @@
+* {
+  font-family: 'Inter', sans-serif;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+a.nav-item.nav-link {
+  font-weight: bold;
+  size: 100%;
+  font-size: 22px;
+  margin-right: 20px;
+}
+a.navbar-brand {
+  size: 100%;
+  font-weight: bold;
+  font-size: 22px;
+}
+div.navbar-nav {
+  size: 100%;
+}
+a.nav-item.nav-link {
+  size: 100%;
+  font-weight: bold;
+  font-size: 22px;
+  margin-right: 20px;
+}
+.img {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.img-fluid {
+  opacity: 0.5;
+}
+.banner {
+  background-color: black;
+}
+.img-fluid {
+  opacity: 30%;
+}
+.banner {
+  position: relative;
+}
+.banner h2 {
+  color: white;
+  font-weight: 500;
+}
+.container.marketing {
+  text-align: center;
+}
+.banner .atas {
+  color: white;
+  font-weight: 900;
+}
+.banner .bawah {
+  left: 50%;
+  top: 47%;
+  color: white;
+  font-weight: 900;
+}
+.banner a {
+  color: white;
+}
+.banner a button {
+  font-weight: 700;
+}
+.containerText {
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.containerText h2 {
+  font-weight: 100;
+}
+@media screen and (max-width: 811px) {
+  .containerText {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 662px) {
+  .banner h2 {
+    font-size: 16px;
+  }
+  .banner h1 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 356px) {
+  .banner h2 {
+    font-size: 14px;
+  }
+  .banner h1 {
+    font-size: 18px;
+  }
+}
+.row {
+  margin-top: 30px;
+}
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border: transparent;
+}
+button:focus {
+  outline: transparent;
+}
+.titleatas {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.col-lg-4 p {
+  margin-top: 20px;
+}
+.kata-kata {
+  margin-top: 55px;
+  margin-bottom: 46px;
+}
+@media screen and (max-width: 976px) {
+  .kata-kata {
+    margin-bottom: 0px;
+  }
+  .katakata1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .kata-kata {
+    margin-top: 0px;
+  }
+  .katakata1 {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 989px) {
+  div.col-lg-4 h2 {
+    font-size: 24px;
+  }
+  div.col-lg-4 p {
+    font-size: 12px;
+  }
+}
+.katakata1 {
+  margin-top: 57px;
+}
